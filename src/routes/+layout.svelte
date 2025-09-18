@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
+  	import Footer from '$lib/skeleton/Footer.svelte';
 	
 	let { children } = $props();
 	
@@ -13,4 +14,5 @@
 
 <div class="skeleton">
 	{@render children?.()}
+	<Footer />
 </div>

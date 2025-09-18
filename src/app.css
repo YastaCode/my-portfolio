@@ -25,6 +25,7 @@
     --info: #0BCAF0;
     --info-bg: #CFF4FC;
     --info-border: #9EEBF9;
+    --info-hover: #04a4c5;
 
     --light: #F8F9FA;
     --light-bg: #FCFCFD;
@@ -69,11 +70,12 @@ body {
     box-shadow: 0 0 1px var(--secondary);
     border-radius: 0.3rem;
     min-height: calc(100vh - 2rem);
-    padding: 2.5rem 4.5rem;
+    padding: 2rem 5rem;
     max-width: 900px;
     margin: 0 auto;
     transition: .2s box-shadow ease-in-out;
     display: flex;
+    flex-direction: column;
 }
 .skeleton:hover {
     box-shadow: 0 0 10px var(--secondary);
