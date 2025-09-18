@@ -1,3 +1,10 @@
+export const home = {
+    link: '/', 
+    arial: 'home', 
+    icon: 'bx bxs-home', 
+    target: '_parent'
+}
+
 export const socialIcons = [
     {
         link: 'https://yasta-portfolio.netlify.app/', 
