@@ -1,4 +1,7 @@
 <script>
+    import { contactIcons } from '$lib/js/socialIcons';
+    import BtnIcon from "./BtnIcon.svelte";
+
     let {userImg, alt, firstName, lastName, diploma, presenting} = $props();
 </script>
 
@@ -8,7 +11,11 @@
         <div class="info">
             <h1 class="capitalize text-5xl">{firstName} <strong>{lastName}</strong></h1>
             <h4 class="uppercase text-right">{diploma}</h4>
-            <div class="contact-icons"></div>
+            <div class="contact-icons text-right">
+                {#each contactIcons as icon}
+                    <BtnIcon {...icon} />
+                {/each}
+            </div>
         </div>
     </div>
     <div class="presenting">
