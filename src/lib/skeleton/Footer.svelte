@@ -7,7 +7,7 @@
     <div class="flex justify-between items-center mt-4">
         <p>
             &copy; Tous les droits réservés | 
-            <a href="/" class="capitalize text-(--info)">yasta code</a>
+            <a href="/" class="capitalize text-(--info)">yasta web</a>
             2025
         </p>
         <div class="social-icons flex gap-1">
