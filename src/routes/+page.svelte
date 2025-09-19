@@ -3,7 +3,7 @@
     import Header from "$lib/component/Header.svelte";   
     import { home } from '$lib/js/socialIcons';
     import { infoUser } from '$lib/js/infoUser';
-
+    import ProjectList from "$lib/component/ProjectList.svelte";
     const page = {
         link: 'accueil',
         name: 'yasta web'
@@ -20,4 +20,5 @@
 
 <main>
     <section><Header {...infoUser} /></section>
+    <section><ProjectList /></section>
 </main>
